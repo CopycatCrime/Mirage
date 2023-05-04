@@ -36,4 +36,3 @@ class Mirage(commands.Bot):
 bot = Mirage()
 
 bot.run(config.token)
-
