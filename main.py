@@ -4,7 +4,7 @@ from discord.ext import commands
 import config
 
 
-class Artemis(commands.Bot):
+class Mirage(commands.Bot):
     def __init__(self, **kwargs):
         self.version = 1.0
         intents = discord.Intents.all()
@@ -33,6 +33,6 @@ class Artemis(commands.Bot):
         await ctx.send(error_msg)
 
 
-bot = Artemis()
+bot = Mirage()
 
 bot.run(config.token)
